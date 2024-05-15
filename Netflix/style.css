@@ -1,0 +1,236 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main{
+    background-image:url(images/bg2.png);
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 5px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;   
+}
+.collapse{
+    justify-content: end;
+}
+.navbar-nav li{
+    color: yellowgreen;
+}
+.nav-item1{
+    border: 2px solid white;
+    margin: 6px;
+    padding: 2px;
+    border-radius: 8px;
+    padding: 0px 4px;   
+}
+.nav-item a{
+    color: aliceblue;
+    font-size: medium;
+    font-weight: 600;
+}
+.nav-item2{
+    background-color: #e50914;
+    border-radius: 8px;
+    color: #e50914;
+    padding: 2px;
+    padding: 0px 4px;
+    margin: 6px;
+}
+.main-heading{
+    height: 300px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    padding-top: 10%;
+}
+.main-heading h1{
+    text-align: center;
+    color: white;
+    font-weight: 800;   
+}
+.main-heading p{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+}
+.main-search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.navbar-toggler-icon{
+    color: #FFF;
+}
+.main-search-sub{
+    width: 500px;
+    border: 1px solid white ;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+.main-btn{
+    background-color: #e50914;
+    color: #FFF;
+    font-weight: 400;
+    border: 2px solid #e50914;
+    width: 200px;
+    height: 40px;
+}
+.partition{ 
+    height: 85vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    border-top: 3px solid grey;
+}
+.partition1{
+    padding: 10%;
+}
+.partition-heading h1{
+    color: white;
+    font-size: x-large;
+    font-weight: 400;
+    font-size: 60px;
+    padding-top: 6%;
+}
+.partition-heading p{
+    color: white;
+    font-size: large;
+    font-weight:400;
+}
+.partion-img1{
+    width: 400px;
+    height: 300px;
+}
+.partion-img2{
+    width: 400px;
+    height: 300px;
+}
+.partion-img3{
+    width: 400px;
+    height: 300px;
+}
+.partion-img4{
+    width: 400px;
+    height: 300px;
+}
+.partition2{
+    flex-direction: row-reverse;
+    padding-top: 6%;   
+}
+.partition3{
+    padding-top: 12%;
+}
+.partition4{
+    flex-direction: row-reverse;
+    padding-top: 10%;
+    border-bottom: 3px solid gray;
+}
+.faq{
+    margin-bottom: 3px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+}
+.faq h1{
+    padding: 1em;
+    color: white;
+    font-size: x-large;
+    font-weight: 900;
+}
+.btn-faq{
+    background-color: rgba(128, 128, 128, 0.315);
+    height: 100px;
+    width: 70vw;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 1em;
+    align-items: center;
+    font-size: large;
+    font-weight: 400;
+}
+.bottomfooter{
+    color: white;
+}
+a{
+    color: white;
+}
+.bottomfooter{
+    display: flex;
+    font: optional;
+    line-height: 2.5;
+    box-sizing: border-box;
+    
+}
+li{
+    list-style: none;
+}
+.question{
+    color: white;
+    border-top: 2px solid gray;
+    width: 100%;
+    padding: 6% 0 3% 5%;
+    display: flex;
+    justify-content: left;
+}
+.card{
+    width: 70%;
+    margin-left: 15%;
+    background-color: rgba(128, 128, 128, 0.315);
+    color: white;
+}
+
+.lists{
+    display: flex;
+    color: rgba(255, 255, 255, 0.046);
+    
+}
+.list1,.list2,.list3,.list4{
+    flex: 2;
+    line-height: 50px;
+}
+@media screen and (max-width:360px) {
+    .main-btn{
+      display:none;
+    }
+}
+ @media screen and (max-width:900px) {
+    .partion-img1,.partion-img2,.partion-img3,.partion-img4{
+      width: 300px;
+      height: 200px;
+    }
+} 
+@media screen and (max-width:432px) {
+    .partition-heading h1{
+      display:none;
+    }
+}
+@media screen and (max-width:432px) {
+    .partition-heading h1{
+      display:none;
+    }
+}
+@media screen and (max-width:365px) {
+    .list4,.list3{
+      display:none;
+    }
+}
